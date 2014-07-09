@@ -14,13 +14,23 @@
 		96F92083196C598900E297FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F92082196C598900E297FD /* main.m */; };
 		96F92087196C598900E297FD /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F92086196C598900E297FD /* TBAppDelegate.m */; };
 		96F9208A196C598900E297FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F92088196C598900E297FD /* Main.storyboard */; };
-		96F9208D196C598900E297FD /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F9208C196C598900E297FD /* TBViewController.m */; };
 		96F9208F196C598900E297FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F9208E196C598900E297FD /* Images.xcassets */; };
 		96F92096196C598900E297FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F92095196C598900E297FD /* XCTest.framework */; };
 		96F92097196C598900E297FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F92076196C598900E297FD /* Foundation.framework */; };
 		96F92098196C598900E297FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F9207A196C598900E297FD /* UIKit.framework */; };
 		96F920A0196C598900E297FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96F9209E196C598900E297FD /* InfoPlist.strings */; };
 		96F920A2196C598900E297FD /* SelectTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F920A1196C598900E297FD /* SelectTableDemoTests.m */; };
+		96F920AE196C59BF00E297FD /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F920AB196C59BF00E297FD /* check@2x.png */; };
+		96F920AF196C59BF00E297FD /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F920AC196C59BF00E297FD /* clock@2x.png */; };
+		96F920B0196C59BF00E297FD /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F920AD196C59BF00E297FD /* cross@2x.png */; };
+		96F920B2196C59CC00E297FD /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F920B1196C59CC00E297FD /* list@2x.png */; };
+		96F920B7196C59E900E297FD /* TBCustonSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F920B4196C59E900E297FD /* TBCustonSelectTableViewCell.m */; };
+		96F920B8196C59E900E297FD /* TBCustSelectTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F920B6196C59E900E297FD /* TBCustSelectTableView.m */; };
+		96F920C0196C59F400E297FD /* TBSwipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F920BA196C59F400E297FD /* TBSwipTableViewCell.m */; };
+		96F920C1196C59F400E297FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F920BC196C59F400E297FD /* ViewController.m */; };
+		96F920C2196C59F400E297FD /* tb_bg_checkbox_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F920BD196C59F400E297FD /* tb_bg_checkbox_check@2x.png */; };
+		96F920C3196C59F400E297FD /* tb_bg_checkbox_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F920BE196C59F400E297FD /* tb_bg_checkbox_disable@2x.png */; };
+		96F920C4196C59F400E297FD /* tb_bg_checkbox_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F920BF196C59F400E297FD /* tb_bg_checkbox_normal@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +55,27 @@
 		96F92085196C598900E297FD /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
 		96F92086196C598900E297FD /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
 		96F92089196C598900E297FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96F9208B196C598900E297FD /* TBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBViewController.h; sourceTree = "<group>"; };
-		96F9208C196C598900E297FD /* TBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
 		96F9208E196C598900E297FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96F92094196C598900E297FD /* SelectTableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectTableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F92095196C598900E297FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		96F9209D196C598900E297FD /* SelectTableDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelectTableDemoTests-Info.plist"; sourceTree = "<group>"; };
 		96F9209F196C598900E297FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96F920A1196C598900E297FD /* SelectTableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTableDemoTests.m; sourceTree = "<group>"; };
+		96F920AB196C59BF00E297FD /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		96F920AC196C59BF00E297FD /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		96F920AD196C59BF00E297FD /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		96F920B1196C59CC00E297FD /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		96F920B3196C59E900E297FD /* TBCustonSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCustonSelectTableViewCell.h; sourceTree = "<group>"; };
+		96F920B4196C59E900E297FD /* TBCustonSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCustonSelectTableViewCell.m; sourceTree = "<group>"; };
+		96F920B5196C59E900E297FD /* TBCustSelectTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCustSelectTableView.h; sourceTree = "<group>"; };
+		96F920B6196C59E900E297FD /* TBCustSelectTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCustSelectTableView.m; sourceTree = "<group>"; };
+		96F920B9196C59F400E297FD /* TBSwipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSwipTableViewCell.h; sourceTree = "<group>"; };
+		96F920BA196C59F400E297FD /* TBSwipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBSwipTableViewCell.m; sourceTree = "<group>"; };
+		96F920BB196C59F400E297FD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96F920BC196C59F400E297FD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96F920BD196C59F400E297FD /* tb_bg_checkbox_check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tb_bg_checkbox_check@2x.png"; sourceTree = "<group>"; };
+		96F920BE196C59F400E297FD /* tb_bg_checkbox_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tb_bg_checkbox_disable@2x.png"; sourceTree = "<group>"; };
+		96F920BF196C59F400E297FD /* tb_bg_checkbox_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tb_bg_checkbox_normal@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +105,17 @@
 		96F9206A196C598900E297FD = {
 			isa = PBXGroup;
 			children = (
+				96F920B9196C59F400E297FD /* TBSwipTableViewCell.h */,
+				96F920BA196C59F400E297FD /* TBSwipTableViewCell.m */,
+				96F920BB196C59F400E297FD /* ViewController.h */,
+				96F920BC196C59F400E297FD /* ViewController.m */,
+				96F920BD196C59F400E297FD /* tb_bg_checkbox_check@2x.png */,
+				96F920BE196C59F400E297FD /* tb_bg_checkbox_disable@2x.png */,
+				96F920BF196C59F400E297FD /* tb_bg_checkbox_normal@2x.png */,
+				96F920B3196C59E900E297FD /* TBCustonSelectTableViewCell.h */,
+				96F920B4196C59E900E297FD /* TBCustonSelectTableViewCell.m */,
+				96F920B5196C59E900E297FD /* TBCustSelectTableView.h */,
+				96F920B6196C59E900E297FD /* TBCustSelectTableView.m */,
 				96F9207C196C598900E297FD /* SelectTableDemo */,
 				96F9209B196C598900E297FD /* SelectTableDemoTests */,
 				96F92075196C598900E297FD /* Frameworks */,
@@ -112,11 +146,13 @@
 		96F9207C196C598900E297FD /* SelectTableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				96F920B1196C59CC00E297FD /* list@2x.png */,
+				96F920AB196C59BF00E297FD /* check@2x.png */,
+				96F920AC196C59BF00E297FD /* clock@2x.png */,
+				96F920AD196C59BF00E297FD /* cross@2x.png */,
 				96F92085196C598900E297FD /* TBAppDelegate.h */,
 				96F92086196C598900E297FD /* TBAppDelegate.m */,
 				96F92088196C598900E297FD /* Main.storyboard */,
-				96F9208B196C598900E297FD /* TBViewController.h */,
-				96F9208C196C598900E297FD /* TBViewController.m */,
 				96F9208E196C598900E297FD /* Images.xcassets */,
 				96F9207D196C598900E297FD /* Supporting Files */,
 			);
@@ -229,9 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F920B2196C59CC00E297FD /* list@2x.png in Resources */,
+				96F920C2196C59F400E297FD /* tb_bg_checkbox_check@2x.png in Resources */,
+				96F920AF196C59BF00E297FD /* clock@2x.png in Resources */,
 				96F9208F196C598900E297FD /* Images.xcassets in Resources */,
+				96F920C3196C59F400E297FD /* tb_bg_checkbox_disable@2x.png in Resources */,
 				96F92081196C598900E297FD /* InfoPlist.strings in Resources */,
 				96F9208A196C598900E297FD /* Main.storyboard in Resources */,
+				96F920C4196C59F400E297FD /* tb_bg_checkbox_normal@2x.png in Resources */,
+				96F920AE196C59BF00E297FD /* check@2x.png in Resources */,
+				96F920B0196C59BF00E297FD /* cross@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F9208D196C598900E297FD /* TBViewController.m in Sources */,
+				96F920C1196C59F400E297FD /* ViewController.m in Sources */,
+				96F920C0196C59F400E297FD /* TBSwipTableViewCell.m in Sources */,
+				96F920B7196C59E900E297FD /* TBCustonSelectTableViewCell.m in Sources */,
 				96F92087196C598900E297FD /* TBAppDelegate.m in Sources */,
+				96F920B8196C59E900E297FD /* TBCustSelectTableView.m in Sources */,
 				96F92083196C598900E297FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +503,7 @@
 				96F920A7196C598900E297FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96F920A8196C598900E297FD /* Build configuration list for PBXNativeTarget "SelectTableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +512,7 @@
 				96F920AA196C598900E297FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
